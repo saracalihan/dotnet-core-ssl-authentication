@@ -7,7 +7,7 @@ Firstly come into source folder.
 cd .\WebApplication5\
 ```
 ### Run Project
-Project will be run on `https://localhost:50001`.
+Project will be run on `https://localhost:5001`.
 ```bash
 dotnet run
 ```
