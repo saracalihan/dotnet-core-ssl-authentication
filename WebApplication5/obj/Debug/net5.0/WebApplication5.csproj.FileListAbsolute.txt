@@ -75,4 +75,3 @@ C:\Users\AlihanSarac\Desktop\BTI\sll-auth\dotnet-core-ssl-authentication\WebAppl
 C:\Users\AlihanSarac\Desktop\BTI\sll-auth\dotnet-core-ssl-authentication\WebApplication5\obj\Debug\net5.0\ref\ssl-authentication.dll
 C:\Users\AlihanSarac\Desktop\BTI\sll-auth\dotnet-core-ssl-authentication\WebApplication5\obj\Debug\net5.0\ssl-authentication.pdb
 C:\Users\AlihanSarac\Desktop\BTI\sll-auth\dotnet-core-ssl-authentication\WebApplication5\obj\Debug\net5.0\WebApplication5.genruntimeconfig.cache
-C:\Users\AlihanSarac\Desktop\BTI\sll-auth\dotnet-core-ssl-authentication\WebApplication5\obj\Debug\net5.0\WebApplication5.csproj.AssemblyReference.cache

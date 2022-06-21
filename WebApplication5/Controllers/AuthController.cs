@@ -13,7 +13,7 @@ using WebApplication5.Helpers;
 namespace WebApplication5.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("/api/[controller]")]
     //[Authorize]
     public class AuthController : ControllerBase
     {

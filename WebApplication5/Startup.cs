@@ -41,7 +41,7 @@ namespace WebApplication5
                     return true;
                 };
             });
-
+            services.AddControllers();
             services.AddAuthentication(CertificateAuthenticationDefaults.AuthenticationScheme)
                     .AddCertificate(options =>
                     {
@@ -93,7 +93,6 @@ namespace WebApplication5
                         //    })
                     })
                                 .AddCertificateCache();
-            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -111,6 +110,7 @@ namespace WebApplication5
                 var response = new { error = exception.Message };
                 await context.Response.WriteAsJsonAsync(response);
             }));
+
             app.Use(async (context, next) =>
             {
                 if (context.Request.Path == "/")
@@ -124,9 +124,14 @@ namespace WebApplication5
 
             app.UseCertificateMiddleware();
             app.UseAuthentication();
+            app.UseRouting();
             app.UseHttpsRedirection();
             app.UseAuthorization();
-            app.UseRouting();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
         }
     }
 }

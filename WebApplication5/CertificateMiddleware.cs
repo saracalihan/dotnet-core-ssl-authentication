@@ -28,18 +28,18 @@ namespace WebApplication5
             X509Certificate2 clientCertifacate = httpContext.Connection.ClientCertificate;
             //string clientCertFromHeader = httpContext.Request.Headers["X-ARR-ClientCert"];
             //Console.WriteLine(clientCertFromHeader);
-            LogHelper.LogError(string.Concat(LogHelper.LogType.Info, " ", MethodBase.GetCurrentMethod().Name, " Client Thumbprint: ", clientCertifacate.Thumbprint));
+            LogHelper.LogError(string.Concat(LogHelper.LogType.Info, " ", MethodBase.GetCurrentMethod().Name, " Client Thumbprint: ", clientCertifacate != null? clientCertifacate.Thumbprint : " null" ));
             if (clientCertifacate == null)
             {
-  		        // await BufferRequestBodyAsync();
- 	            clientCertifacate = await httpContext.Connection.GetClientCertificateAsync();
-		    
-                if(clientCertifacate == null)
+                // await BufferRequestBodyAsync();
+                clientCertifacate = await httpContext.Connection.GetClientCertificateAsync();
+
+                if (clientCertifacate == null)
                     throw new Exception("sertifika alınamadı");
             }
             if (!AuthService.authenticateCert(clientCertifacate))
             {
-                throw new Exception("sertifika doğrulanamadı Thumbprint: " + clientCertifacate.Thumbprint );
+                throw new Exception("sertifika doğrulanamadı Thumbprint: " + clientCertifacate.Thumbprint);
             }
             LogHelper.LogError(string.Concat(LogHelper.LogType.Info, " ", MethodBase.GetCurrentMethod().Name, " Doğrulama başarılı"));
             await _next(httpContext);
