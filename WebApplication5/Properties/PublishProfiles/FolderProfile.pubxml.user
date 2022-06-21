@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\AlihanSarac\Desktop\dotnet-core-ssl-authentication\WebApplication5\bin\Release\net5.0\publish\</_PublishTargetUrl>
+    <History>True|2022-06-08T09:03:54.2770464Z;</History>
+  </PropertyGroup>
+</Project>

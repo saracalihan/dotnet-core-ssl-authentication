@@ -1,8 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
+using System.Text.Json;
 using System.Threading.Tasks;
+using WebApplication5.Helpers;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -10,39 +14,15 @@ namespace WebApplication5.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    //[Authorize]
     public class AuthController : ControllerBase
     {
-        // GET: api/<AuthController>
         [HttpGet]
         public string Get()
         {
-            string subjectName = HttpContext.User.Identity.Name;
-            return "subjectName";
+            LogHelper.LogError(string.Concat(LogHelper.LogType.Info, " ", MethodBase.GetCurrentMethod().Name, " Controller'a girdi."));
+
+            return "Serifika doğrulamalı giriş başarıyla yapıldı";
         }
-
-        //// GET api/<AuthController>/5
-        //[HttpGet("{id}")]
-        //public string Get(int id)
-        //{
-        //    return "value "+ id+1;
-        //}
-
-        //// POST api/<AuthController>
-        //[HttpPost]
-        //public void Post([FromBody] string value)
-        //{
-        //}
-
-        //// PUT api/<AuthController>/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-        //{
-        //}
-
-        //// DELETE api/<AuthController>/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
     }
 }

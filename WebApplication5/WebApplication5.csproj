@@ -6,6 +6,10 @@
     <RootNamespace>ssl-authentication</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\AlihanSarac\Desktop\BTI\sll-auth\dotnet-core-ssl-authentication\WebApplication5\ssl-authentication.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Certificate" Version="5.0.17" />
     <PackageReference Include="System.Security.Claims" Version="4.3.0" />

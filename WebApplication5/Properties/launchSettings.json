@@ -5,7 +5,7 @@
         "Url": "http://localhost:5000"
       },
       "Https": {
-        "Url": "https://localhost:5001"
+        "Url": "https://localhost:5002"
       }
     }
   },
@@ -14,17 +14,18 @@
     "anonymousAuthentication": true,
     "iis": {
       "applicationUrl": "http://localhost/WebApplication5",
-      "sslPort": 0
+      "sslPort": 3333
     },
     "iisExpress": {
-      "applicationUrl": "http://localhost:58086",
-      "sslPort": 44311
+      "applicationUrl": "https://localhost:44311",
+      "sslPort": 44356
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "profiles": {
     "IIS Express": {
-      "commandName": "IIS",
+      "commandName": "IISExpress",
+      "launchBrowser": true,
       "launchUrl": "api/auth",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

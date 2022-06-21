@@ -1,0 +1,9 @@
+C:\Users\AlihanSarac\Desktop\BTI\sll-auth\dotnet-core-ssl-authentication\WebApplication5\obj\Release\net5.0\PubTmp\Out\ssl-authentication.exe
+C:\Users\AlihanSarac\Desktop\BTI\sll-auth\dotnet-core-ssl-authentication\WebApplication5\obj\Release\net5.0\PubTmp\Out\web.config
+C:\Users\AlihanSarac\Desktop\BTI\sll-auth\dotnet-core-ssl-authentication\WebApplication5\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+C:\Users\AlihanSarac\Desktop\BTI\sll-auth\dotnet-core-ssl-authentication\WebApplication5\obj\Release\net5.0\PubTmp\Out\appsettings.json
+C:\Users\AlihanSarac\Desktop\BTI\sll-auth\dotnet-core-ssl-authentication\WebApplication5\obj\Release\net5.0\PubTmp\Out\ssl-authentication.dll
+C:\Users\AlihanSarac\Desktop\BTI\sll-auth\dotnet-core-ssl-authentication\WebApplication5\obj\Release\net5.0\PubTmp\Out\ssl-authentication.deps.json
+C:\Users\AlihanSarac\Desktop\BTI\sll-auth\dotnet-core-ssl-authentication\WebApplication5\obj\Release\net5.0\PubTmp\Out\ssl-authentication.runtimeconfig.json
+C:\Users\AlihanSarac\Desktop\BTI\sll-auth\dotnet-core-ssl-authentication\WebApplication5\obj\Release\net5.0\PubTmp\Out\ssl-authentication.pdb
+C:\Users\AlihanSarac\Desktop\BTI\sll-auth\dotnet-core-ssl-authentication\WebApplication5\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.Certificate.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AlihanSarac\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5.csproj": {}
+    "C:\\Users\\AlihanSarac\\Desktop\\BTI\\sll-auth\\dotnet-core-ssl-authentication\\WebApplication5\\WebApplication5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AlihanSarac\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5.csproj": {
+    "C:\\Users\\AlihanSarac\\Desktop\\BTI\\sll-auth\\dotnet-core-ssl-authentication\\WebApplication5\\WebApplication5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AlihanSarac\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5.csproj",
+        "projectUniqueName": "C:\\Users\\AlihanSarac\\Desktop\\BTI\\sll-auth\\dotnet-core-ssl-authentication\\WebApplication5\\WebApplication5.csproj",
         "projectName": "ssl-authentication",
-        "projectPath": "C:\\Users\\AlihanSarac\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5.csproj",
+        "projectPath": "C:\\Users\\AlihanSarac\\Desktop\\BTI\\sll-auth\\dotnet-core-ssl-authentication\\WebApplication5\\WebApplication5.csproj",
         "packagesPath": "C:\\Users\\AlihanSarac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AlihanSarac\\source\\repos\\WebApplication5\\WebApplication5\\obj\\",
+        "outputPath": "C:\\Users\\AlihanSarac\\Desktop\\BTI\\sll-auth\\dotnet-core-ssl-authentication\\WebApplication5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

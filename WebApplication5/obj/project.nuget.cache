@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "02nbahXomDDRDd6WhxkteaE/3eUxLT03oMOb85UZ/rwjHUw2idHA2WctJoxw62YqVUcm6iZHtodFkIPwDTXKXw==",
+  "dgSpecHash": "iD6g+5va+XhqEXVsFcXGNNnMAHlp/4MJFPXABucqIRn27U1gaTit0mooqfEZ6q02no9iraezdOHp3yo7Jzk5Hg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AlihanSarac\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5.csproj",
+  "projectFilePath": "C:\\Users\\AlihanSarac\\Desktop\\BTI\\sll-auth\\dotnet-core-ssl-authentication\\WebApplication5\\WebApplication5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AlihanSarac\\.nuget\\packages\\microsoft.aspnetcore.authentication.certificate\\5.0.17\\microsoft.aspnetcore.authentication.certificate.5.0.17.nupkg.sha512",
     "C:\\Users\\AlihanSarac\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
